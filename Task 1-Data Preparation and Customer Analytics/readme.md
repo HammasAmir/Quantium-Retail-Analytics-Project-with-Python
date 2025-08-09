@@ -1,0 +1,31 @@
+# Task 1: Data Preparation & Cleaning
+
+## Objective
+Prepare and clean the provided transaction and customer datasets to ensure they are ready for accurate and efficient analysis in subsequent tasks.
+
+## Steps Taken
+
+### 1. Examine Transaction Data
+- Checked for **inconsistencies**, missing values, and outliers.
+- Verified that product categories were correctly identified.
+- Ensured numeric columns were in the correct format.
+- Fixed anomalies by correcting values, standardizing formats, and removing duplicates.
+- Saved a cleaned transaction dataset.
+
+### 2. Examine Customer Data
+- Checked for null values and incorrect data entries.
+- Standardized formats for consistency with transaction data.
+- Cleaned anomalies and ensured valid entries for all columns.
+- Saved a cleaned customer dataset.
+
+### 3. Merge Data
+- Merged cleaned transaction and customer datasets on a common key.
+- Verified the merged dataset for completeness and accuracy.
+- Saved the merged dataset for further analysis.
+
+## Tools Used
+- **Python**: pandas, numpy, scipy, matplotlib, regex
+- Jupyter Notebook
+
+## Outcome
+A clean, merged dataset combining transaction and customer data, free from inconsistencies and ready for analysis in Task 2.
